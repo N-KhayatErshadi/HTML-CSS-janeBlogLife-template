@@ -1,0 +1,20 @@
+@use"sass/base";
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding:0;
+    font-size:base.$base-font-size;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: base.$base-line-height;
+    background-color: base.$base-background-color;
+}
+
+
+@import "./sass/general";
+@import "./sass/header";
+@import "./sass/banner";
